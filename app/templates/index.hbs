@@ -5,14 +5,22 @@
 </p>
 
 <ul>
-  {{#each model as |rental|}}
+  {{#each model.rentals as |rental|}}
     {{rental-tile rental=rental destroyRental="destroyRental"}}
   {{/each}}
 </ul>
 
+
+{{#each model.announcements as |announcement|}}
+  <p>{{announcement.title}}</p><br>
+  <p>{{announcement.body}}</p>
+  <p>{{announcement.author}}</p>
+{{/each}}
+
+
 {{new-rental saveRental2="saveRental3"}}
 
-{{new-announcement announcement="announcement"}}
+{{new-announcement saveAnnouncement="saveAnnouncement"}}
 
 {{#link-to 'about'}}About{{/link-to}}
 <br>
