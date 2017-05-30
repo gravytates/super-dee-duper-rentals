@@ -21,9 +21,13 @@ export default Ember.Route.extend({
     },
 
     saveAnnouncement(params) {
-      debugger;
       var newAnnouncement = this.store.createRecord('announcement', params);
       newAnnouncement.save();
+      this.transitionTo('index');
+    },
+
+    destroyAnnouncement(announcement) {
+      announcement.destroyRecord();
       this.transitionTo('index');
     }
   }

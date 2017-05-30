@@ -9,12 +9,11 @@
     {{rental-tile rental=rental destroyRental="destroyRental"}}
   {{/each}}
 </ul>
-
+<hr>
+<h3>Important announcements:</h3>
 
 {{#each model.announcements as |announcement|}}
-  <p>{{announcement.title}}</p><br>
-  <p>{{announcement.body}}</p>
-  <p>{{announcement.author}}</p>
+  {{announcement-tile announcement=announcement destroyAnnouncement="destroyAnnouncement"}}
 {{/each}}
 
 
