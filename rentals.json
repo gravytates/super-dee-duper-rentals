@@ -18,10 +18,20 @@
     "bedrooms": 3,
     "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg"
   }],
-  
+
  "announcements": [{
     "title": "Important Message",
     "body": "This is a warning to my sea anenomes. Check yoself.",
     "author": "Grady"
+  }],
+  
+  "reviews": [{
+    "author": "Andrea",
+    "rating": 4,
+    "content": "Did not fall down."
+  }, {
+    "author": "Alex",
+    "rating": 9,
+    "content": "Nice view of the volcano!"
   }]
 }

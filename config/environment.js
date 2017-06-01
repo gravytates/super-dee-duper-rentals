@@ -14,11 +14,12 @@ module.exports = function(environment) {
     },
 
     firebase: {
-      apiKey: 'AIzaSyDO4KLBJeoTix50arnZQhcmyX7QdnKfmn0',
-      authDomain: 'super-duper-rentals-ee3e8.firebaseapp.com',
-      databaseURL: 'https://super-duper-rentals-ee3e8.firebaseio.com',
-      storageBucket: 'super-duper-rentals-ee3e8.appspot.com'
+      apiKey: "AIzaSyASgS47ErbLZ_uB5NosCRkuLjoaLmPH5tM",
+      authDomain: "super-de-duper-rentals.firebaseapp.com",
+      databaseURL: "https://super-de-duper-rentals.firebaseio.com",
+      storageBucket: "super-de-duper-rentals.appspot.com",
     },
+
 
     APP: {
       // Here you can pass flags/options to your application instance
